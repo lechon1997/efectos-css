@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css"/>
-    <link rel="stylesheet" href="css/warning.css"/>
-    <link rel="stylesheet" href="css/danger.css"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/warning.css" />
+    <link rel="stylesheet" href="css/danger.css" />
+    <link rel="stylesheet" href="css/success.css" />
     <!-- fontawesome para iconos ricos-->
-    <script src="https://kit.fontawesome.com/445d83e769.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/445d83e769.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div class="container-buttons">
-        <button name="btn-warning">Warning</button>
-        <button name="btn-danger">Danger</button>
-        <button>Success</button>
+      <button name="btn-warning">Warning</button>
+      <button name="btn-danger">Danger</button>
+      <button name="btn-success">Success</button>
     </div>
-    
+
     <div class="alert alert-warning alert-warning-position hide">
-        <span class="fas fa-exclamation-circle circle-warning"></span>
-        <span class="msg">Warning: this is a warning alert!</span>
-        <span class="close-btn-warning">
-            <span class="fas fa-times"></span>
-        </span>
+      <span class="fas fa-exclamation-circle circle-warning"></span>
+      <span class="msg msg-warning">Warning: this is a warning alert!</span>
+      <span class="close-btn close-btn-warning">
+        <span class="fas fa-times"></span>
+      </span>
     </div>
-    
+
     <div class="alert alert-danger alert-danger-position hide">
-        <span class="fas fa-exclamation-circle circle-danger"></span>
-        <span class="msg">Danger: this is a danger alert!</span>
-        <span class="close-btn-danger">
-            <span class="fas fa-times"></span>
-        </span>
+      <span class="fas fa-exclamation-circle circle-danger"></span>
+      <span class="msg msg-danger">Danger: this is a danger alert!</span>
+      <span class="close-btn close-btn-danger">
+        <span class="fas fa-times"></span>
+      </span>
+    </div>
+
+    <div class="alert alert-success alert-success-position hide">
+      <span class="fas fa-exclamation-circle circle-success"></span>
+      <span class="msg msg-success">Danger: this is a danger alert!</span>
+      <span class="close-btn close-btn-success">
+        <span class="fas fa-times"></span>
+      </span>
     </div>
 
     <script src="js/animation.js"></script>
-</body>
+  </body>
 </html>
